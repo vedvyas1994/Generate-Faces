@@ -8,7 +8,7 @@
 To define and train a Deep Convolutional Generative Adersarial Network (DCGAN) on a dataset of faces such that the generator network is able to generate new images of faces that look as realistic as possible!
 
 ### Dataset:
-I have used the [Large-scale CelebFaces Attributes (CelebA) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train the Discriminator network of my DCGAN. Since the project's main focus is on building and training the DCGAN, I have used a pre-processed version of the data available for download [here](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip). In the downloaded zip, each of the CelebA images has been cropped to remove parts of the image that don't include a face, then resized down to 64x64x3 NumPy images. 
+I have used the [Large-scale CelebFaces Attributes (CelebA) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train the Discriminator & Generator networks of my DCGAN. Since the project's main focus is on building and training the DCGAN, I have used a pre-processed version of the data available for download [here](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip). In the downloaded zip, each of the CelebA images has been cropped to remove parts of the image that don't include a face, then resized down to 64x64x3 NumPy images. 
 
 ### Project Overview
 This project has been completed under a single Jupyter notebook and the details of tasks performed in the same are listed below :
